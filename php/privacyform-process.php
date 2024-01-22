@@ -25,7 +25,7 @@ if (empty($_POST["terms"])) {
     $terms = $_POST["terms"];
 }
 
-$EmailTo = "yourname@domain.com";
+$EmailTo = "info.steadgrow@gmail.com";
 $Subject = "New privacy request from Corso landing page";
 
 // prepare email body text

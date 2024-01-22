@@ -660,6 +660,10 @@ input[type="checkbox"] {
 /**************************/
 /*     03. Navigation     */
 /**************************/
+nav img {
+  width: 15.5625rem;
+  height: 7.875rem;
+}
 .navbar-custom {
   background-color: #fff;
   box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.04);
@@ -668,8 +672,8 @@ input[type="checkbox"] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-  width: 5.5625rem;
-  height: 1.875rem;
+  width: 15.5625rem;
+  height: 7.875rem;
 }
 
 .navbar-custom .navbar-brand.logo-text {
@@ -794,12 +798,13 @@ input[type="checkbox"] {
   position: relative;
   padding-top: 8rem;
   padding-bottom: 40%;
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom right,
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.8)
     ),
-    url("../images/header-background.jpg") center center no-repeat;
+    url("../images/header-background.jpg") center center no-repeat; */
+  background-color: #0c1902;
   background-size: cover;
   text-align: center;
 }
@@ -1019,8 +1024,8 @@ input[type="checkbox"] {
   width: 2.125rem;
   height: 2.125rem;
   border-radius: 50%;
-  background-color: #ffbd50;
-  color: #333;
+  background-color: #054520;
+  color: #ffffff;
   font-style: normal;
   font-weight: 700;
   font-size: 0.875rem;
@@ -1747,7 +1752,7 @@ a:hover.back-to-top {
   }
 
   .header .outer-container {
-    bottom: -4rem;
+    bottom: -10rem;
   }
 
   .header .swiper-button-prev {
