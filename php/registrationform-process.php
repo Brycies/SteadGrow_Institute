@@ -25,7 +25,7 @@ if (empty($_POST["terms"])) {
     $terms = $_POST["terms"];
 }
 
-$EmailTo = "yourname@domain.com";
+$EmailTo = "info.steadgrow@gmail.com";
 $Subject = "New registration from SteadGrow Insitute Website";
 
 // prepare email body text
