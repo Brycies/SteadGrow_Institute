@@ -661,8 +661,8 @@ input[type="checkbox"] {
 /*     03. Navigation     */
 /**************************/
 nav img {
-  width: 15.5625rem;
-  height: 7.875rem;
+  width: 12.5625rem;
+  height: 7.275rem;
 }
 .navbar-custom {
   background-color: #fff;
@@ -672,8 +672,8 @@ nav img {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-  width: 15.5625rem;
-  height: 7.875rem;
+  width: 12.5625rem;
+  height: 7.75rem;
 }
 
 .navbar-custom .navbar-brand.logo-text {
@@ -798,15 +798,18 @@ nav img {
   position: relative;
   padding-top: 8rem;
   padding-bottom: 40%;
-  /* background: linear-gradient(
+  background: linear-gradient(
       to bottom right,
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.8)
     ),
-    url("../images/header-background.jpg") center center no-repeat; */
+    url("../images/istockphoto-1162911786-612x612.jpg") center center no-repeat;
   background-color: #0c1902;
   background-size: cover;
   text-align: center;
+}
+.header-info {
+  margin-top: 200px;
 }
 
 .header .countdown {
@@ -883,6 +886,7 @@ nav img {
 }
 
 .header .swiper-container {
+  border: 1px solid white;
   position: static;
   width: 80%;
   border-radius: 0.75rem;
@@ -914,8 +918,9 @@ nav img {
 /*     05. Registration     */
 /****************************/
 .form-1 {
-  padding-top: 6rem;
-  padding-bottom: 6.25rem;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 4.25rem;
   background-color: #ffbd50;
 }
 
@@ -1395,7 +1400,7 @@ nav img {
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.8)
     ),
-    url("../images/date-background.jpg") center center no-repeat;
+    url("../images/istockphoto-962492016-612x612.jpg") center center no-repeat;
   background-size: cover;
   text-align: center;
 }
@@ -1814,6 +1819,10 @@ a:hover.back-to-top {
 /* Min-width width 992px */
 @media (min-width: 992px) {
   /* Navigation */
+  nav img {
+    width: 8.5625rem;
+    height: 4.275rem;
+  }
   .navbar-custom {
     padding: 2.125rem 1.5rem 2.125rem 2rem;
     background: transparent;
