@@ -1819,10 +1819,7 @@ a:hover.back-to-top {
 /* Min-width width 992px */
 @media (min-width: 992px) {
   /* Navigation */
-  nav img {
-    width: 8.5625rem;
-    height: 4.275rem;
-  }
+
   .navbar-custom {
     padding: 2.125rem 1.5rem 2.125rem 2rem;
     background: transparent;
