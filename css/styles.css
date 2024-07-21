@@ -663,6 +663,9 @@ input[type="checkbox"] {
 nav img {
   width: 100px;
 }
+.img-fluid {
+  width: 1110px;
+}
 .navbar-custom {
   background-color: #fff;
   box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.04);
