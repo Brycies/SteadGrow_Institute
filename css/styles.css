@@ -661,8 +661,7 @@ input[type="checkbox"] {
 /*     03. Navigation     */
 /**************************/
 nav img {
-  width: 12.5625rem;
-  height: 7.275rem;
+  width: 100px;
 }
 .navbar-custom {
   background-color: #fff;
@@ -672,8 +671,6 @@ nav img {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-  width: 12.5625rem;
-  height: 7.75rem;
 }
 
 .navbar-custom .navbar-brand.logo-text {
