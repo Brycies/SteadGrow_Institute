@@ -662,6 +662,7 @@ input[type="checkbox"] {
 /**************************/
 nav img {
   width: 100px;
+  background-color: #fff;
 }
 .img-fluid {
   width: max-content;
@@ -735,7 +736,7 @@ nav img {
 }
 
 .navbar-custom .dropdown-item:hover {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .navbar-custom .dropdown-item .item-text {
